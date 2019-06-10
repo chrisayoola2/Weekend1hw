@@ -15,3 +15,10 @@ Create an application to have the following features
 
 5. Add backward compatibility in all activities (left arrow on the app bar)
 
+![Screenshot_1560186733](https://user-images.githubusercontent.com/51377425/59213248-6c454880-8b82-11e9-8a62-52188bd6ecb4.png)
+![Screenshot_1560186761](https://user-images.githubusercontent.com/51377425/59213252-6e0f0c00-8b82-11e9-87ea-0de7a6a07ffd.png)
+![Screenshot_1560186855](https://user-images.githubusercontent.com/51377425/59213274-79623780-8b82-11e9-9c3d-9fa69b21c53d.png)
+
+
+![Screenshot_1560186929](https://user-images.githubusercontent.com/51377425/59213287-7f581880-8b82-11e9-8719-575b426f3de5.png)
+![Screenshot_1560186939](https://user-images.githubusercontent.com/51377425/59213292-81ba7280-8b82-11e9-864f-4dfb3297af19.png)
