@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CalculatorMain">
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnCalculatorBack"
+    android:layout_alignParentBottom="true"
+    android:text="BACK from Calculator"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/tvAmount"
+        android:textSize="25sp"
+        android:text=" Loan Amount"/>
+
+
+    <SeekBar
+        android:id="@+id/sbAmount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="500000"
+        android:layout_below="@id/tvAmount"
+        android:progress="0"
+        android:padding="5dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/tvInterestRate"
+        android:textSize="25sp"
+        android:text="Your Interest Rate (APR%)"
+        android:layout_below="@id/sbAmount"/>
+
+
+    <SeekBar
+        android:id="@+id/sbInterest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="70"
+        android:progress="0"
+        android:padding="5dp"
+        android:layout_below="@id/tvInterestRate"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/tvMonths"
+        android:textSize="25sp"
+        android:text="Months of Loan"
+        android:layout_below="@id/sbInterest"/>
+
+    <SeekBar
+        android:id="@+id/sbMonths"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="800"
+        android:progress="0"
+        android:padding="5dp"
+        android:layout_below="@id/tvMonths"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/tvTotal"
+        android:textSize="25sp"
+        android:hint="Your Total Loan Amount"
+        android:layout_below="@id/sbMonths"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/tvInterestAmount"
+        android:textSize="25sp"
+        android:hint="Your Interest Amount"
+        android:layout_below="@id/tvTotal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/tvMonthly"
+        android:textSize="25sp"
+        android:hint="Your Monthly Payment Amount"
+        android:layout_below="@id/tvInterestAmount"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:layout_margin="3dp"
+        android:id="@+id/btnSubmit"
+        android:text="Submit"
+        android:layout_above="@id/btnCalculatorBack"/>
+
+
+</RelativeLayout>
